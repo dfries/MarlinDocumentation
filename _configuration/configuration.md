@@ -930,7 +930,7 @@ To indicate a Servo Z Probe (_e.g.,_ an endstop switch mounted on a rotating arm
 ```cpp
 //#define BLTOUCH
 ```
-The [ANTCLABS BLTouch](//plus.google.com/113792662927481823969) probe uses custom circuitry and a magnet to raise and lower a metal pin which acts as a touch probe. The BLTouch uses the servo connector and is controlled using specific servo angles. With this option enabled the other required settings are automatically configured (so there's no need to enter servo angles, for example).
+The [ANTCLABS BLTouch](//plus.google.com/113792662927481823969) probe uses custom circuitry and a magnet to raise and lower a metal pin (V2.0 and later are plastic) which acts as a touch probe. The BLTouch uses the servo connector and is controlled using specific servo angles. With this option enabled the other required settings are automatically configured (so there's no need to enter servo angles, for example).
 
 #### TOUCH MI PROBE
 
